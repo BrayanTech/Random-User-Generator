@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #3498db;
+    margin-top: 40px;
+}
+
+#fetch-users, #gender-filter {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+}
+
+#fetch-users {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#fetch-users:hover {
+    background-color: #2980b9;
+}
+
+#gender-filter {
+    width: 200px;
+    border: 1px solid #3498db;
+}
+
+#user-list {
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#user-list li:last-child {
+    border-bottom: none;
+}

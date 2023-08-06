@@ -1,5 +1,3 @@
-# Random-User-Generator
-
 Installation
 Clone this repository: git clone https://github.com/BrayanTech/random-user-generator.git.
 Open index.html in your web browser.
